@@ -15,5 +15,7 @@ chmod +x install_owasp.sh
 ./install_owasp.sh
 ```
 
-## utilisation
+## Utilisation
 http://@ip-de_la-vm/mutillidae depuis un navigateur web
+
+Puis cliquer sur setup/reset the DB pour accéder à Mutillidae.
