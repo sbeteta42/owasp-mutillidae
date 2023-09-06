@@ -2,7 +2,7 @@
 Installation automatisée de mutillidae pour les TPs OWASP
 
 ## Pré-requis
-OS: Debian 11
+OS: Debian 10/11
 ```bash
 apt install -y openssh-server git 
 ```
