@@ -11,6 +11,7 @@ apt install -y openssh-server git
 ```bash
 git clone https://github.com/sbeteta42/owasp-mutillidae.git
 cd owasp-mutillidae
+chmod +x install_owasp.sh
 ./install_owasp.sh
 ```
 
