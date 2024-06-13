@@ -5,8 +5,8 @@
 ############################
 
 #installation des dépendances logicielles
-echo "installation des dépendances logicielles"
-sleep 3
+echo "Installation des dépendances logicielles"
+sleep 5
 apt install git php-xml php7.4-fpm libapache2-mod-php php-mysql mariadb-server apache2 apache2-utils php-xml php-gd php-imap php-php-gettext php-curl zip -y
 clear
 
@@ -31,13 +31,13 @@ git clone https://github.com/so-sc/OWASP-mutillidae-2.git
 clear
 
 #on renomme le dossier en mutillidae
-sleep 2
+sleep 3
 echo "on renomme le dossier en mutillidae"
 mv OWASP-mutillidae-2/ mutillidae
 
 #on deplace le dossier dans /var/www/html
 echo "On deplace le dossier dans /var/www/html"
-sleep 2
+sleep 3
 mv mutillidae/ /var/www/html/
 
 #mise à jour des droits sur le dossier
@@ -59,4 +59,4 @@ clear
 echo " Installation de OWASP MUTILLIDAE terminé."
 echo ""
 echo "Utilisation : se connecter depuis votre pc hôte sur http://@ip-de-cet-VM/mutillidae" 
-echo "Puis cliquer sur setup/reset the DB pour accéder à mutillidae.
+echo "Puis cliquer sur setup/reset the DB pour accéder à mutillidae."
