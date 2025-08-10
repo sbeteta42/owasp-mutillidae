@@ -75,5 +75,5 @@ docker compose -f .build/docker-compose.yml up --build -d
 
 🔄 Restaurer avec Reset DB après chaque test
 
-📜 Licence
-Ce projet est distribué sous GPLv3 – libre à utiliser et modifier.
+## 📜 Licence
+- Ce projet est distribué sous GPLv3 – libre à utiliser et modifier.
