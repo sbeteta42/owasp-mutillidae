@@ -49,8 +49,9 @@ chmod +xinstall_owasp.sh install_owasp.sh
 ```
 🛠 Configurer la base MySQL/MariaDB
 
-🌐 Accéder via le navigateur
-
+## 🌐 Accéder via le navigateur
+- Se connecter depuis votre pc hôte sur http://@ip-de-cet-VM/mutillidae" 
+- Puis cliquer sur 🔄setup/reset the DB🔄 pour accéder à mutillidae."
 
 ## 🐳 Installation via Docker
 ```bash
@@ -66,10 +67,13 @@ docker compose -f .build/docker-compose.yml up --build -d
 🔒 Conseils de sécurité
 🚫 Ne jamais exposer Mutillidae sur Internet
 
-🖥 Utiliser uniquement dans un environnement isolé (VM, réseau fermé)
+🖥 A utiliser uniquement dans un environnement isolé (VM, réseau fermé)
+
+## Utilisation : 
+se connecter depuis votre pc hôte sur http://@ip-de-cet-VM/mutillidae" 
+echo "Puis cliquer sur setup/reset the DB pour accéder à mutillidae."
 
 🔄 Restaurer avec Reset DB après chaque test
 
 📜 Licence
 Ce projet est distribué sous GPLv3 – libre à utiliser et modifier.
-
