@@ -69,9 +69,9 @@ docker compose -f .build/docker-compose.yml up --build -d
 
 🖥 A utiliser uniquement dans un environnement isolé (VM, réseau fermé)
 
-## Utilisation : 
-se connecter depuis votre pc hôte sur http://@ip-de-cet-VM/mutillidae" 
-echo "Puis cliquer sur setup/reset the DB pour accéder à mutillidae."
+## 🌐 Utilisation : 
+- Se connecter depuis votre pc hôte sur http://@ip-de-cet-VM/mutillidae 
+- Puis cliquer sur setup/reset the DB pour accéder à mutillidae.
 
 🔄 Restaurer avec Reset DB après chaque test
 
