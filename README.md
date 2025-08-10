@@ -43,3 +43,32 @@ Avec ses **hints intégrés**, ses **modes de sécurité** et sa **réinitialisa
 1. 📥 Cloner le dépôt  
 ```bash
 git clone https://github.com/sbeteta42/owasp-mutillidae.git
+```
+📂 Copier les fichiers dans le dossier htdocs ou équivalent
+
+🛠 Configurer la base MySQL/MariaDB
+
+🌐 Accéder via le navigateur
+
+
+🐳 Installation via Docker
+```bash
+git clone https://github.com/webpwnized/mutillidae-docker.git
+cd mutillidae-docker
+docker compose -f .build/docker-compose.yml up --build -d
+```
+📍 Services inclus :
+Mutillidae : http://localhost
+PHPMyAdmin : http://localhost:81
+LDAP : port 389
+
+🔒 Conseils de sécurité
+🚫 Ne jamais exposer Mutillidae sur Internet
+
+🖥 Utiliser uniquement dans un environnement isolé (VM, réseau fermé)
+
+🔄 Restaurer avec Reset DB après chaque test
+
+📜 Licence
+Ce projet est distribué sous GPLv3 – libre à utiliser et modifier.
+
