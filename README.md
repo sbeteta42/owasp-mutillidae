@@ -44,7 +44,7 @@ Avec ses **hints intégrés**, ses **modes de sécurité** et sa **réinitialisa
 ```bash
 git clone https://github.com/sbeteta42/owasp-mutillidae.git
 cd owasp-mutillidae
-chmod +xinstall_owasp.sh install_owasp.sh
+chmod +x install_owasp.sh
 ./install_owasp.sh
 ```
 🛠 Configurer la base MySQL/MariaDB
