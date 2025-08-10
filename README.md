@@ -51,16 +51,16 @@ git clone https://github.com/sbeteta42/owasp-mutillidae.git
 🌐 Accéder via le navigateur
 
 
-🐳 Installation via Docker
+## 🐳 Installation via Docker
 ```bash
 git clone https://github.com/webpwnized/mutillidae-docker.git
 cd mutillidae-docker
 docker compose -f .build/docker-compose.yml up --build -d
 ```
 📍 Services inclus :
-Mutillidae : http://localhost
-PHPMyAdmin : http://localhost:81
-LDAP : port 389
+- Mutillidae : http://localhost
+- PHPMyAdmin : http://localhost:81
+- LDAP : port 389
 
 🔒 Conseils de sécurité
 🚫 Ne jamais exposer Mutillidae sur Internet
