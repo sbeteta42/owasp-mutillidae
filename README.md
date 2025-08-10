@@ -40,12 +40,13 @@ Avec ses **hints intégrés**, ses **modes de sécurité** et sa **réinitialisa
 ---
 
 ## ⚙️ Installation classique (LAMP/WAMP/XAMPP)
-1. 📥 Cloner le dépôt  
+1. 📥 Cloner le dépôt et installation  
 ```bash
 git clone https://github.com/sbeteta42/owasp-mutillidae.git
+cd owasp-mutillidae
+chmod +xinstall_owasp.sh install_owasp.sh
+./install_owasp.sh
 ```
-📂 Copier les fichiers dans le dossier htdocs ou équivalent
-
 🛠 Configurer la base MySQL/MariaDB
 
 🌐 Accéder via le navigateur
