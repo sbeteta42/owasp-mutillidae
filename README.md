@@ -1,4 +1,4 @@
-#![Mutillidae Logo](https://owasp.org/assets/images/logo.png)OWASP Mutillidae II – Application Web Vulnérable 🔓
+#![Mutillidae Logo](https://top10.owasp.org/2021/assets/TOP_10_logo_Final_Logo_Colour.png)OWASP Mutillidae II – Application Web Vulnérable 🔓
 
 **Mutillidae II** est une application Web volontairement vulnérable, conçue pour l’apprentissage et la pratique du pentest en suivant les failles **OWASP Top-10**.  
 - Idéale pour les labs, CTF et formations en cybersécurité.
