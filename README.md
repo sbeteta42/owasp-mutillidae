@@ -2,8 +2,8 @@
 
 **Mutillidae II** est une application Web volontairement vulnérable, conçue pour l’apprentissage et la pratique du pentest en suivant les failles **OWASP Top-10**.  
 - Idéale pour les labs, CTF et formations en cybersécurité.
-- OWASP s'installe uniquement sur [Debian11](https://mega.nz/file/7tBXlLjQ#OecGg_FtBlR2BX48xAy8FTC7pt3002PqpuTJCtf2xik) 
-
+- Vous pouvez télécharger l'image au format OVA ici  [OWASP.ova](https://mega.nz/file/bt4wVLBS#2AiwYwT_VaioDWsQDa_GN1k2XVCmv5kGme5PzXaJs6M) 
+- Les Login/password sont dans la description de la VM une fois importée.
 ---
 
 ![OS](https://img.shields.io/badge/OS-Linux%20|%20Windows-blue)  
